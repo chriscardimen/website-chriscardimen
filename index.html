@@ -8,23 +8,26 @@
 </head>
 
 <body>
-    <h1>Chris Cardimen</h1>
+    <h1>Homepage</h1>
     <h2>About</h2>
-    <p>Hello! If you hadn't already guessed, my name is Chris Cardimen. I'm a michigan-based software developer currently working at
-        Jackson National Life. I do full-stack development, as well as website design
-        and game development.</p>
+    <p>Hello! My name is Chris Cardimen. I'm a michigan-based software developer currently working at
+        Jackson National Life. I specialize in full-stack development, website design, and video game development.</p>
     <h2>This website</h2>
     <p>This is my personal website, <a href="./index.html">chriscardimen.com</a>. I primarily use it as a portfolio and
         as a place to document my projects.</p>
-    <h2>Source Code</h2>
+    <h3>Source Code</h3>
     <p>The source code for this website is all publicly available on GitHub, under the <a
             href="https://github.com/chriscardimen/website-chriscardimen">website-chriscardimen</a> repository.</p>
-    <p>The entire website has been handmade in classic barebones HTML. If you want to see
-        my work with an engine (WordPress) that has more design features, check out the website I made for my wedding:
-        <a href="https://cardimensteffywedding.com/">cardimensteffywedding.com</a>. The deployment configuration of
-        this site is done through a combination of Git, cPanel (the hosting site I use), and cron jobs. When a change is
-        merged into the main branch of this repo, cPanel's cron automation suite will send out a cron job to run and
-        execute a PHP script to update the site.
+    <p>The entire website has been handmade in raw HTML. If you want to see
+        my work with an engine (Wordpress) that has more design features, check out the website I made for my wedding:
+        <a href="https://cardimensteffywedding.com/">cardimensteffywedding.com</a>.
+    <h3>CI/CD Pipeline</h3>
+    The deployment automation of
+    this site is done through a combination of Git (version control), cPanel (server hosting), and a cron job. When a
+    change is
+    merged into the main branch of this repo, cPanel's cron automation suite will kick off a job to
+    execute a PHP script that fetches the latest updates to the repository's main branch and updates the site's
+    contents.
     </p>
 </body>
 
